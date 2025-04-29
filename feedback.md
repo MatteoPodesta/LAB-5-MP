@@ -14,7 +14,8 @@
 ```text
 //FUNCTION DECLERATIONS---------------------------------------------------------------------------------
 string checkName(string name);
-* multiple return statements in a non-recursive function; may result in unreachable return; use if/else, use a variable to store the results and return the variable; e.g. a function to check the length of a string, function to validate account number,  short validations can be done in the return statement; e.g.  return a<MIN_LENGTH;   -2 -5
+```
+* multiple return statements in a non-recursive function; may result in unreachable return; use if/else, use a variable to store the results and return the variable; e.g. a function to check the length of a string, function to validate account number,  short validations can be done in the return statement; e.g.  return a<MIN_LENGTH;   -2
 * what if numbers change? if it is not 1 or 0 make it const; in case of ASCII values, use chars, e.g., temp>’a’  -2
-* 172 and like, poor  and redundant logic;  setCreature()  with 4 args should be the only functions used for validation; exceptions should be caught and dealt with in setCreature()  with 4 args; this way validation and set statements are not all over the class code; no need to rethrow exceptions; if set creature called by a c’tor and throws an exception, a creature object will not be created, you might have an id for an object for not the objects;  see assignment; discussed in class -2 -5 -10
+* 172 and like, poor  and redundant logic;  setCreature()  with 4 args should be the only functions used for validation; exceptions should be caught and dealt with in setCreature()  with 4 args; this way validation and set statements are not all over the class code; no need to rethrow exceptions; if set creature called by a c’tor and throws an exception, a creature object will not be created, you might have an id for an object for not the objects;  see assignment; discussed in class -2
 
